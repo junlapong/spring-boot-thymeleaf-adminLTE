@@ -8,17 +8,16 @@
     <name>Spring Boot Thymeleaf AdminLTE</name>
     <packaging>war</packaging>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-    </properties>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.2.RELEASE</version>
+        <version>1.4.3.RELEASE</version>
     </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
 
     <!-- Add typical dependencies for a web application -->
     <dependencies>
@@ -118,7 +117,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -130,7 +128,7 @@
             </plugin>
         </plugins>
     </build>
-
+<!--
     <repositories>
         <repository>
             <id>spring-releases</id>
@@ -144,5 +142,6 @@
             <url>http://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
+-->
 
 </project>
