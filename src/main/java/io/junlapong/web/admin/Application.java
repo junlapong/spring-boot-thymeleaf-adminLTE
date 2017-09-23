@@ -1,4 +1,4 @@
-package pl.codeleak.demos.sbt;
+package io.junlapong.web.admin;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
